@@ -1,0 +1,40 @@
+#about{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10vw 40px 10vw;
+    background-color: var(--tone3_1);
+}
+.edu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    width: 100%;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    padding: 20px 0 20px 0;
+}
+@media only screen and (max-width: 600px) {
+    .edu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 30vh;
+        width: 100%;
+        align-items: center;
+        margin: 20px 0 20px 0;
+        padding: 20px 0 20px 0;
+    }
+    .edu h2{
+        text-align: center;
+    }
+}
+#about h1{
+    margin-bottom: 20px;
+}
+#about p{
+    text-align: center;
+    font-size: 1.2rem;
+}
