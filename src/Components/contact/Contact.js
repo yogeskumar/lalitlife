@@ -8,9 +8,9 @@ export default function Contact() {
   return (
     <div id="contact">
         <h2>Contact me at</h2>
-        <h1>sudo.harsh404@gmail.com</h1>
+        <h1>Lalittomar954816@gmail.com</h1>
         <div className="links">
-          <a href="https://www.instagram.com/sudo.harsh/" target="_blank" className="insta">
+          <a href="https://www.instagram.com/lalit.life/" target="_blank" className="insta">
             <img src={instagram} alt="Instagram" />
           </a>
           <a href="https://twitter.com/HarshAg90" target="_blank" className="twitter">
@@ -23,7 +23,7 @@ export default function Contact() {
 
         <div className="tnc">
             <h2>&copy; Copyright</h2>
-            <p>made solely by Harsh Agnihotri</p>
+            <p>made by Lalit</p>
         </div>
     </div>
   )
