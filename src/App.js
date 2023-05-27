@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./Components/home/Home";
 import Nav from "./Components/home/nav";
-import Edu_certi from "./Components/skills/Quali_comp";
+import EduCerti from "./Components/skills/Quali_comp";
 import Projects from "./Components/projects/Projects";
 import About from "./Components/about/About";
 import Portfolio from "./Components/Portfolio/portfolio";
@@ -148,7 +148,7 @@ const particlesLoaded = useCallback(async container => {
         />
       <Home themeFn={Theme} />
       <About />
-      <Edu_certi />
+      <EduCerti />
       <Projects />
       <Portfolio/>
       <Contact/>

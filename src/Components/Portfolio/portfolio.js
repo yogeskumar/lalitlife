@@ -38,7 +38,7 @@ export default function Portfolio() {
         <div className="achievements">
             <div className="card" data-aos="fade-right">
                 <h2>Followings</h2>
-                <h1> 1200000 + </h1>
+                <h1> 1400000 + </h1>
             </div>
             <div className="card" data-aos="fade-right" data-aos-delay="100">
                 <h2>Posts</h2>

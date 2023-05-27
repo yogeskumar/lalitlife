@@ -36,7 +36,6 @@ export default function About() {
             <span>Instagram - 1.3M+</span> <span>2018-present</span>
           </h3>
           <br />
-          <h2></h2>
           <h3>
             <span>and alot more</span> <span></span>
           </h3>

@@ -4,13 +4,14 @@ import pythonhub_insta from "../../assets/media/python-hub-design.png";
 import pythonhub_website from "../../assets/media/PythonHub_web_design.png";
 import lalit_insta from "../../assets/media/lalit_life_Design.png";
 import copy_Asssignment_Design from "../../assets/media/copy-assignments-design2.png";
-import stock_pic from "../../assets/media/stock_pic_store.png";
-import snake_game from "../../assets/media/sank_game.png";
-import color_picker from "../../assets/media/color_picker.png";
+import amazonAi from "../../assets/media/Amazon-AI.png"
+import appointmentAi from "../../assets/media/Appointment-ai.png";
+import Game_predictor from "../../assets/media/game-predictor.png";
 
 export default function Projects() {
   return (
     <section id="proj">
+      
       <div id="projects">
         <h3 className="title">Portfolio</h3>
         <h1 className="title">Some of my Social Platforms</h1>
@@ -93,63 +94,70 @@ export default function Projects() {
         </div>
 
         <br />
+        <hr />
         <br />
         <h1 className="title">Some Big Freelance Projects I and my team have done</h1>
 
         <div className="cards">
-          <img src={stock_pic} alt="" />
+          <img src={appointmentAi} alt="" />
           <div className="content">
             <h3>WEB PAGE</h3>
-            <h1>Stock Pics Fetch Site</h1>
+            <h1>Auto Appointment Schedular</h1>
             <p className="desc">
-              A full website with API connected to fetch stock Pics for Anything and download it without ads or spam content 
+              A website that help you schedule an appointment to doctors, lawyers, and many other service based professionalists automatically
             </p>
             <h2>Features</h2>
             <p className="features">
-              <span>Stock Photos</span>
-              <span>Learning from past searches</span>
-              <span>Pixel REST API used</span>
-              <span>Downloadable</span>
+              <span>Web Platform</span>
+              <span>Easy Access</span>
+              <span>REST API used</span>
+              <span>fast and easy workflow</span>
               <span>Responsive</span>
             </p>
-            <a href="https://github.com/HarshAg90/Photon-" rel="noreferrer"  target="_blank">TAKE ME TO PROJECT</a>
+            {/* <a href="#" rel="noreferrer"  target="_blank">TAKE ME TO PROJECT</a> */}
           </div>
         </div>
         <div className="cards rev">
-          <img src={snake_game} alt="" />
+          <img src={amazonAi} alt="" />
           <div className="content">
-            <h3>CLI GAME</h3>
-            <h1>Snake game Playable in SHELL (CLI)</h1>
+            <h3>CLI Bot</h3>
+            <h1>Buying Automation at Amazon</h1>
             <p className="desc">
-              its a Snake game in playable in CLI, made with python and curses module, it have speed adjustment, score system and everything of snake game, its AWESOME
+              There's always rush to buy a good product and many time products get out of stock very fast
+              <br />
+              This is Python executable script to automate <b> buying</b> a certain product as soon as it <b> stocks back up</b>
             </p>
             <h2>Features</h2>
             <p className="features">
-              <span>Its A game</span>
-              <span>CLI + game</span>
-              <span>ITS A GAME</span>
-              <span>Green snake</span>
-              <span>Red food</span>
+              <span>100% Autonomus</span>
+              <span>Auto detects If product is back in stock</span>
+              <span>no viruses</span>
+              <span>1 click setup</span>
+              <span>easy and reliable</span>
+              {/* <span>Red food</span> */}
             </p>
-            <a href="https://github.com/HarshAg90/CLI-Snake" rel="noreferrer"  target="_blank">TAKE ME TO PROJECT</a>
+            {/* <a href="https://github.com/HarshAg90/CLI-Snake" rel="noreferrer"  target="_blank">TAKE ME TO PROJECT</a> */}
           </div>
         </div>
         <div className="cards">
-          <img src={color_picker} alt="" />
+          <img src={Game_predictor} alt="" />
           <div className="content">
-            <h3>WEB PAGE</h3>
-            <h1>Color Suggestion site</h1>
+            <h3>Web Page</h3>
+            <h1>AI based Game Winning Probability Generator</h1>
             <p className="desc">
-              A simple side project to generate random color pallet and show it beautifully on webpage
-              with ability to copy it from 1 click
+              A web application that integrates AI with large data collection to Predict the Probable winning team with high acuracy
+              <br />
+              the winning is considered by Alot of factors like <b> Number of balls left, number of wickets left, injured players </b>etc
             </p>
             <h2>Features</h2>
             <p className="features">
-              <span>Color generation</span>
-              <span>Responsive</span>
-              <span>Random, refreshable</span>
+              <span>Artificial Inteligence</span>
+              <span></span>
+              <span>Web Platform</span>
+              <span>High acuracy</span>
+              <span>Cricket</span>
             </p>
-            <a href="https://github.com/HarshAg90/Color-suggestion" rel="noreferrer"  target="_blank">TAKE ME TO PROJECT</a>
+            {/* <a href="https://github.com/HarshAg90/Color-suggestion" rel="noreferrer"  target="_blank">TAKE ME TO PROJECT</a> */}
           </div>
         </div>
       </div>
