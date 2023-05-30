@@ -13,10 +13,10 @@ export default function Contact() {
           <a href="https://www.instagram.com/lalit.life/" rel="noreferrer" target="_blank" className="insta">
             <img src={instagram} alt="Instagram" />
           </a>
-          <a href="https://twitter.com/HarshAg90" rel="noreferrer" target="_blank" className="twitter">
-            <img src={twitter} alt="" />
-          </a>
-          <a href="https://www.linkedin.com/in/harshag90/" rel="noreferrer" target="_blank" className="linkedin">
+//           <a href="https://twitter.com/HarshAg90" rel="noreferrer" target="_blank" className="twitter">
+//             <img src={twitter} alt="" />
+//           </a>
+          <a href="https://www.linkedin.com/in/lalit-t-b59585135" rel="noreferrer" target="_blank" className="linkedin">
             <img src={linkedin} alt="" />
           </a>
         </div>
